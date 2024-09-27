@@ -37,7 +37,7 @@ def generate_pinfl(gender_century_index, birth_date, region_code, serial_number)
 gender_century_index = input("Введите индекс пола и века рождения (1-6): ")
 birth_date = input("Введите дату рождения в формате ДДММГГ: ")
 region_code = input("Введите код региона: ")
-serial_number = input("Введите порядковый номер (4 цифры): ")
+serial_number = input("Введите порядковый номер (3 цифры): ")
 
 # Генерация ПИНФЛ
 pinfl = generate_pinfl(gender_century_index, birth_date, region_code, serial_number)
